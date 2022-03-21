@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+
+    <!-- Bootswatch -->
+    <link rel="stylesheet" href="bootstrap.min (1).css">
+</head>
+<body>
+    <!-- Navegacion-->
+    <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"> Productos</a>
+    </nav>
+
+    <div class="contenedor">
+        <!--Aplicacion-->
+        <div id="App" class="Fila 5">
+            <div class="tolumna 4">
+            <div class="tarjeta">
+                <div class="tarjeta-header">
+                    <h4>Agregar Productos</h4>
+                
+                </div>
+                <form id="Formulario-product" class="tarjeta-cuerpo">
+                 <div class="formulario-grupos">
+                     <input
+                     type="text"
+                     id="Nombre"
+                     placeholder="Nombre del producto"
+                     class="Control-formulario"
+                     >
+                 </div>
+                 <input
+                 type="text"
+                 value="Guardar"
+                 class="btn btn-primario btn-bloque">
+                </form>
+            </div>
+            </div> <!--Termina formulario-->
+        </div>
+    </div>
+    <!--Lista de productos-->
+    <div id="lista-producto" class="columna-8"></div>
+    <script src="App.js"></script>
+</body>
+</html>
